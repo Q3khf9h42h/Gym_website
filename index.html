@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="style.css">
+<style>
+   /*css reset*/
+    body{
+        color:white;
+        margin:0px;
+        padding:0px;
+        background: url("img/bg.jpg.jpg")
+    }
+    .left{
+       /* border:2px solid black;*/
+        display:inline-block;
+        position:absolute;
+        left:34px;
+        top:20px;
+
+    }
+    .left div{
+        
+        font-size: 8px;
+        text-align:center;
+    }
+    .mid{
+        display:block;
+        width:33%;
+        margin: 29px auto;
+        font-size: 25px;
+        /*border: 2px solid turquoise;*/
+        
+
+    }
+    .right{
+        position:absolute;
+        right:34px;
+        top:43px;
+       /* border :2px solid green;*/
+        display:inline-block;
+
+    }
+    .navbar{
+        display: inline-block;
+        length: 100px;
+        font-size: 15px;
+
+
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 16px;
+        
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 10px;
+
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color:grey;
+
+    }
+    .btn{
+        
+        margin:0px 9px;
+        background-color: black;
+        color:white;
+        padding:4px 14px;
+        border:2px solid grey;
+        border-radius:10px;
+        font-size:12px;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background-color:grey;
+    }
+    .container{
+        border: 2px solid white;
+        margin:20px 100px;
+        padding:70px;
+        width:30%;
+        border-radius: 40px;
+    }
+    .form-group input{
+        text-align:center;
+        display:block;
+        width:80%;
+        border-radius: 28px;
+        border:2px solid black;
+        margin:8px auto;
+        font-size:15px;
+        padding:5px;
+
+    }
+    .container h1{
+        text-align:center;
+    }
+    .container button{
+        display:block;
+        width:77%;
+        margin:16px auto;
+        font-size: 17px;
+    }
+
+</style>
+<body>
+<header class="header">
+    <!--left box for logo-->
+    <div class="left">
+    <img src="img/logo.jpg.png" height=50px width=50px alt="">
+
+    <div>WORLD FITNESS</div>
+    
+    </div>
+    <!--mid box for navbar-->
+
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href= "#" class="active" >Home</a></li>
+            <li><a href="#" >About us</a></li>
+            <li><a href="#" >Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </div>
+    <!--right box for buttons-->
+    <div class="right">
+      <button class="btn">CALL US NOW</button>
+      <button class="btn">EMAIL US</button>
+
+    </div>
+</header>
+<div class="container">
+    <h1>Join the Best Jym  now</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" Placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" Placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" Placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" Placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" Placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+
+
+
+    
+</body>
+</html>
